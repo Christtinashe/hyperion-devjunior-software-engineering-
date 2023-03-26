@@ -1,5 +1,6 @@
-DROPBOX CLOUD SERVICES
-This is a Python program that allows you to upload files to Dropbox using the Dropbox API.
+DROPBOX CLOUD STORAGE SERVICES
+This Python code allows you to upload files to your Dropbox cloud storage using your Dropbox access token.
+It uses the Dropbox API to interact with your Dropbox account.
 
 GETTING STARTED
 To use this program, you must to have a Dropbox account and an access token.
@@ -11,19 +12,28 @@ Give your app a name and click on Create App.
 On the next page, scroll down to the OAuth 2 section and generate an access token.
 Once you have your access token, you can run the Python script.
 
+INSTALLATION
+To use this code, you need to have the Dropbox Python library installed. You can install it using pip:
+pip install dropbox
+
 USAGE
 To run the program, you must open the terminal and navigate to the directory where the Python script is located. Then, run the following command:
 python dropbox_cloud_storage.py
-
 The program will ask you to enter your Dropbox access token. Enter the token and press Enter.
 
 The program will then ask you if you want to upload a file to Dropbox. If you choose to upload a file, the program will ask you for the file name and the Dropbox folder to upload the file to. The file will be uploaded to Dropbox and a success message will be displayed.
-
 If you choose not to upload a file, the program will then end with a goodbye message.
 
 DEPENDENCIES
 This program requires the Dropbox Python library. You can install it using the following command:
 pip install dropbox
 
-LICENSE
-This project is licensed under the MIT License - see the LICENSE file for details.
+CODE EXPLANATION
+The code defines a class called dropbox_storage that takes your Dropbox access token as an argument.
+It has a method called uploadFile that takes the local file path and the Dropbox file path as arguments, and uploads the file to Dropbox using the Dropbox API.
+
+The main function of the code asks the user if they want to upload a file to Dropbox, and prompts them for the file name and the Dropbox folder.
+It then creates an instance of the dropbox_storage class and calls its uploadFile method to upload the file to Dropbox.
+
+CREDITS
+This code was created by Christopher Tsiga. It uses the Dropbox Python library, which is developed and maintained by Dropbox, Inc.
