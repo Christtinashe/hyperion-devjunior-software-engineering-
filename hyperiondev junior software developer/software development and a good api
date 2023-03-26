@@ -1,0 +1,15 @@
+Question 3
+WHAT I CONSIDER IMPORTANT IN SOFTWARE DEVELOPMENT
+
+What i consider most important in software development is ensuring that the software being developed meets the needs and requirements of the end-users. Meaning that the software should be reliable, efficient, scalable, and most importantly user-friendly. It is also essential to have a clear understanding of the requirements of the software before starting with the development process. Having a well-defined development process is also very important, including testing and quality assurance procedures, to ensure that the software is of high quality and free from bugs and errors. in addition, collaboration and communication among the development team are crucial for successful software development. It is important to work together as a team, exchanging ideas and knowledge all the time, and being open to feedback to deliver the best possible software product for the company and the end-users.
+
+
+HOW I WOULD DEVELOP A GOOD WEB API
+
+Developing a good web API requires a structured approach, starting with identifying use cases and defining the API's functionality, followed by designing its architecture, request and response structures, error handling, and security mechanisms. To ensure quality and reliability, appropriate tools and technologies should definitely be used, depending on the API's programming language, framework, and requirements.
+
+Scalability is very important in developing a good web API, requiring a scalable architecture  handles a large number of requests without compromising performance. This can be achieved through the use of caching, load balancing, and horizontal scaling techniques.
+
+Developing a good web API involves ensuring appropriate authorization mechanisms, such as OAuth or JWT tokens,  restricting access to only authorized users. in addition, making the API easily discoverable by adhering to the industry standards and best practices, using descriptive and meaningful endpoint URLs, and providing comprehensive documentation is of outmost importance.
+
+In conclusion, developing a good web API requires a well-planned and structured approach that considers the API's functionality, architecture, scalability, authorization, and discoverability. Using appropriate tools and technologies is very essential, as is adhering to industry standards and best practices. When following these guidelines, a high-quality and reliable web API that meets the needs of its end-users can be developed.
